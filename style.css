@@ -83,12 +83,12 @@ nav a:hover {
   padding: 2rem;
 }
 
-.hero-content h1 {
+.hero h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
 
-.hero-content p {
+.hero p {
   font-size: 1.25rem;
   color: var(--color-gray);
   margin-bottom: 2rem;
@@ -106,7 +106,7 @@ nav a:hover {
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.btn-cta:hover {
+.boton:hover {
   background-color: var(--color-primary-light);
   transform: translateY(-0.2rem);
 }
@@ -136,7 +136,7 @@ section h2 {
 }
 
 /* tarjetas de servicios con efecto hover */
-.card {
+.tarjeta {
   background-color: var(--color-dark-soft);
   padding: 2rem;
   border-radius: 0.6rem;
@@ -144,16 +144,16 @@ section h2 {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card h3 {
+.tarjeta h3 {
   margin-bottom: 1rem;
   color: var(--color-primary);
 }
 
-.card p {
+.tarjeta p {
   color: var(--color-gray);
 }
 
-.card:hover {
+.tarjeta:hover {
   transform: translateY(-0.4rem);
   box-shadow: 0 0.8rem 2rem rgba(0, 0, 0, 0.6);
 }
@@ -250,11 +250,11 @@ footer {
     padding: 2rem 1rem;
   }
 
-  .hero-content h1 {
+  .hero h1 {
     font-size: 2rem;
   }
 
-  .hero-content p {
+  .hero p {
     font-size: 1.1rem;
   }
 
